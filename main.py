@@ -1,29 +1,12 @@
-men=int(input("Введи число, а я покажу, какой месяц ему соответствует: "))
-if men>12:
-  print("Такого месяца нет")
-if men<1:
-  print("Такого месяца нет")
-elif men==1:
-  print("январь")
-elif men==2:
-  print("Февраль")
-elif men==3:
-  print("Март")
-elif men==4:
-  print("Апрель")
-elif men==5:
-  print("Май")
-elif men==6:
-  print("Июнь")
-elif men==7:
-  print("Июль")
-elif men==8:
-  print("Август")
-elif men==9:
-  print("Сентябрь")
-elif men==10:
-  print("Октябрь")
-elif men==11:
-  print("Ноябрь")
-elif men==12:
-  print("Декабрь")
+x=int(input("Введи x: "))
+y=int(input("Введи y: "))
+if x==0 and y==0:
+  print("точка находится в начале оси координат")
+if x==0:
+  print("точка находится на оси y")
+if y==0:
+  print("точка находится на оси x")
+if x>0 and y>0: print("1 квадрант")
+elif x<0 and y>0: print("2 квадрант")
+elif x<0 and y<0: print("3 квадрант")
+elif x>0 and y<0: print("4 квадрант")
